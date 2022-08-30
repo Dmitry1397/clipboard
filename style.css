@@ -250,9 +250,14 @@ footer {
 
 @media screen and (max-width: 600px) {
 
+    body {
+        height: auto;
+    }
+
     header {
-        height: 100%;
+        height: fit-content;
         padding-top: 20vh;
+        padding-bottom: 10px;
     }
 
     header h1 {
@@ -261,6 +266,7 @@ footer {
 
     .download {
         display: block;
+        margin: 30px auto;
     }
 
     .description h2 {
